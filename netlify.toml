@@ -6,9 +6,8 @@
   from = "/api/*"
   status = 200
   to = "/.netlify/functions/api"
-
-  [[redirects]]
+[[redirects]]
   force = true
-  from = "/.netlify/functions/api"
+  from = "/"
   status = 200
-  to = "/"
+  to = "/.netlify/functions/api"
